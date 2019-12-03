@@ -80,6 +80,7 @@ header {
   font-size: 3em;
   line-height:2em;
   text-align: center;
+  text-transform: uppercase;
 
 }
 .ml_auto {
@@ -88,6 +89,23 @@ header {
 .mr_auto {
   margin-right: auto;
 }
-.button_central {
+/* .button_central {
   text-align: center;
+} */
+.page_contact {
+  padding: 30px 0;
+  margin-bottom: 0;
+}
+.container_contact h2 {
+  font-size: 3em;
+  font-weight: bold;
+  line-height:2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.container_contact {
+  font-size: 10px;
+  line-height:1.5em;
+  text-align: center;
+  text-transform: uppercase;
 }
