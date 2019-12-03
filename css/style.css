@@ -1,8 +1,15 @@
 header {
   background-color: white;
 }
-
-.container-fluid {
+.header-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  line-height: 80px;
+}
+.ms_nav {
   background-color: rgb(23, 33, 41);
   height: 200px;
 }
@@ -23,8 +30,64 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
+  margin-top: 80px;
   text-align: center;
   color: white;
   background-color: purple;
-
 }
+#portfolio {
+  /* margin-bottom: -30px; */
+}
+.container_page {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+}
+.container_page h2 {
+  font-size: 3em;
+  line-height:2em;
+  text-align: center;
+}
+.line_division {
+  margin: 1.25rem 0 1.5rem;
+  height: 200px;
+  width: 100%;
+  display: inline;
+  text-align: center;
+  /* align-items: center; */
+  background-color: brown;
+}
+.col-md-6.col-lg-4 {
+  /* position: relative; */
+  height: 80px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: green;
+}
+
+
+/* .ms_elenco {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+} */
+  /* margin-top: 30px;
+  padding: 40px;
+  background-color: lightgrey;
+} */
+/* .text_porfolio {
+  text-align: center;
+}
+.col-xs-12  {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  text-align: center;
+} */
