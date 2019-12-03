@@ -1,0 +1,30 @@
+header {
+  background-color: white;
+}
+
+.container-fluid {
+  background-color: rgb(23, 33, 41);
+  height: 200px;
+}
+.ms_left {
+  background-color: red;
+}
+.ms_right {
+  background-color: yellow;
+}
+.jumbo {
+  position: relative;
+  background-color: #1abc9c;
+  height: 450px;
+}
+.jumbo_central_space {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  text-align: center;
+  color: white;
+  background-color: purple;
+
+}
