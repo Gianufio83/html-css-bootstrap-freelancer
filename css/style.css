@@ -1,14 +1,7 @@
 header {
   background-color: white;
 }
-.header-top {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 3;
-  width: 100%;
-  line-height: 80px;
-}
+
 .ms_nav {
   background-color: rgb(23, 33, 41);
   height: 200px;
@@ -19,6 +12,15 @@ header {
 .ms_right {
   background-color: yellow;
 }
+.header-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  line-height: 80px;
+}
+
 .jumbo {
   position: relative;
   background-color: #1abc9c;
@@ -35,6 +37,7 @@ header {
   color: white;
   background-color: purple;
 }
+
 #portfolio {
   /* margin-bottom: -30px; */
 }
@@ -108,4 +111,34 @@ header {
   line-height:1.5em;
   text-align: center;
   text-transform: uppercase;
+}
+.page_footer {
+  /* padding-top: 5rem;
+  padding-bottom: 5rem; */
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+}
+.ms_copyright {
+  background-color: #1a252f;
+  /* text-align: center; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+}
+.ms_locaion {
+  margin-bottom: 20px;
+}
+.btn_social {
+  border-radius: 100%;
+  display: inline-block;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+  text-align: center;
+  vertical-align: middle;
 }
