@@ -154,8 +154,8 @@ header {
   width: 100%;
 }
 .page_section {
-  padding: 30px 0;
-  margin-bottom: 0;
+  /* padding: 30px 0; */
+  /* margin-bottom: 0; */
   background-color: #1abc9c;
   color:white;
 }
