@@ -1,8 +1,9 @@
 header {
-  background-color: white;
+  background-color: rgb(23, 33, 41);
+  /* background-color: white; */
 }
 
-.ms_nav {
+/* .ms_nav {
   background-color: rgb(23, 33, 41);
   height: 200px;
 }
@@ -11,20 +12,55 @@ header {
 }
 .ms_right {
   background-color: yellow;
-}
+} */
 .header-top {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
   width: 100%;
+  height: 80px;
   line-height: 80px;
+}
+.logo_title p {
+  color:white;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.link_header {
+  list-style: none;
+}
+.link_header li {
+  display: inline;
+  text-decoration: none;
+}
+.link_header a:hover {
+  color: lightblue;
+}
+.link_header li a {
+  color: white;
+  line-height: 80px;
+  font-size: 18px;
+  padding: 0 15px;
+}
+
+.bg_green {
+  background-color: lightgreen;
+}
+.btn_green {
+  background-color: #158F77;
+  color: white;
+  text-transform: uppercase;
+}
+.btn_green .glyphicon{
+  vertical-align: text-top;
 }
 
 .jumbo {
   position: relative;
   background-color: #1abc9c;
   height: 450px;
+  margin-top: 80px;
 }
 .jumbo_central_space {
   position: absolute;
@@ -32,12 +68,46 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   text-align: center;
   color: white;
-  background-color: purple;
+  /* background-color: purple; */
 }
 
+.ms_face {
+  width: 30%;
+}
+.jumbo_central_space h1 {
+  font-weight: bold;
+}
+.jumbo_central_space p {
+  font-size: 18px;
+}
+.line_division {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.line_division_right {
+  background-color: #fff;
+  margin-right: 1rem;
+  width: 100%;
+  max-width: 7rem;
+  height: .25rem;
+  border-radius: 1rem;
+}
+.line_division_icon {
+  color:white;
+  font-size: 2rem;
+}
+.fa-star:before {
+  content: "\f005";
+}
+.line_divisio_right:last-child {
+  margin-left: 1rem;
+}
 #portfolio {
   /* margin-bottom: -30px; */
 }
@@ -54,15 +124,7 @@ header {
   line-height:2em;
   text-align: center;
 }
-.line_division {
-  margin: 1.25rem 0 1.5rem;
-  height: 200px;
-  width: 100%;
-  display: inline;
-  text-align: center;
-  /* align-items: center; */
-  background-color: brown;
-}
+
 .co-xs-12.col-md-6.col-lg-4 {
   /* position: relative; */
   height: 80px;
